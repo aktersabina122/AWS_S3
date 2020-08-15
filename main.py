@@ -38,6 +38,8 @@ s1.save()
 
 s2 = AWSManager()
 s2.save_to_s3()
-s2.load_from_s3()
+#s2.load_from_s3()
+s2.print_all_objects()
+
 
 
